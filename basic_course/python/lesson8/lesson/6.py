@@ -1,0 +1,11 @@
+import datetime
+a = datetime.datetime(2022,7,13,19,10)
+b = a + datetime.timedelta(days=2,minutes=10)
+c = b - datetime.timedelta(days=3,hours=1,minutes=20)
+print(a)
+print(b)
+print(c)
+c = datetime.datetime.now()
+d = c - datetime.timedelta(hours=12227,minutes=43)
+print(c)
+print(d)
