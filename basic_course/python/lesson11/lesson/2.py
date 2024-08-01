@@ -1,0 +1,15 @@
+nums = list(range(1,11))
+print('Original list of integers:')
+print(nums)
+
+print('\nSquare of numbers from the list:')
+y = map(lambda x : x ** 2, nums)
+even_nums = list(y)
+print(type(y))
+print(even_nums)
+
+print('\nCube of numbers from the list:')
+y = map(lambda x : x ** 3, nums)
+odd_nums = list(y)
+print(type(y))
+print(odd_nums)

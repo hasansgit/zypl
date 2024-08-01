@@ -6,4 +6,3 @@ for i in range(1, len(a)):
         x += 1
 a.append(0)
 print(*a)
-

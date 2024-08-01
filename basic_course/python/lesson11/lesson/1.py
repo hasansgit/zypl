@@ -1,0 +1,15 @@
+nums = list(range(1,21))
+print('Original list of integers:')
+print(nums)
+
+print('\nEven numbers from the list:')
+y = filter(lambda x : x % 2 == 0, nums)
+even_nums = list(y)
+print(type(y))
+print(even_nums)
+
+print('\nOdd numbers from the list:')
+y = filter(lambda x : x % 2 != 0, nums)
+odd_nums = list(y)
+print(type(y))
+print(odd_nums)
